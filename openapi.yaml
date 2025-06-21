@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: Faire Bewertungen Plugin API
+  description: Plugin zur Unterstützung beim Entfernen ungerechter Google-Bewertungen durch spezialisierte Anwälte.
+  version: '1.0.0'
+servers:
+  - url: https://fairebewertungen.de
+paths:
+  /delete:
+    post:
+      summary: Google-Bewertung löschen
+      operationId: deleteReview
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: Dein Name
+                url:
+                  type: string
+                  description: Link zur Bewertung
+      responses:
+        '200':
+          description: Bewertung erfolgreich gemeldet
+        '400':
+          description: Fehlerhafte Eingabe
+components:
+  schemas: {}
