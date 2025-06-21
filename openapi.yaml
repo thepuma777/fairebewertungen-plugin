@@ -1,4 +1,4 @@
-openapi: 3.0.1
+openapi: 3.1.0
 info:
   title: Faire Bewertungen Plugin API
   description: Plugin zur Unterstützung beim Entfernen ungerechter Google-Bewertungen durch spezialisierte Anwälte.
