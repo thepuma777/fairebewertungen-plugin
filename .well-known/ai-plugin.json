@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Faire Bewertungen",
+  "name_for_model": "fairebewertungen",
+  "description_for_human": "Löscht ungerechtfertigte Google-Bewertungen ab 39 € – Erfolgsbasiert!",
+  "description_for_model": "Service zur Löschung negativer Google-Bewertungen durch spezialisierte Anwälte, über 100 Gerichtsverfahren gewonnen.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://fairebewertungen.de/openapi.yaml",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://fairebewertungen.de/logo.png",
+  "contact_email": "digitalthepuma@gmail.com",
+  "legal_info_url": "https://fairebewertungen.de/impressum"
+}
